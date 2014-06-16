@@ -5,6 +5,10 @@ html{
   background-image: url(/images/theme/bg.gif);
 }
 
+img{
+  max-width:100%;
+}
+
 .home {
   text-align:center;
 }
@@ -14,6 +18,11 @@ html{
   border:5px solid #ccc;
   padding:5px;
   margin-bottom:1em;
+}
+.f1s img{
+  float:left;
+  width:50%;
+  padding:.5em;
 }
 
 body{
@@ -45,6 +54,7 @@ body{
 }
 
 
+
 .site-nav a{
   color:#fff;
   float:left;
@@ -56,9 +66,24 @@ body{
 }
 
 
+.cow h2, .cow p{
+  margin:.25em 0 .25em 50px;
+}
+
+.cow h2{
+  color:#ccc;
+}
+
+.cow p{
+  font-size:.8em;
+}
+
+
+
 /* Helpers */
-.cf:after, .clearfix:after{ content:' '; display:table; clear:both; }
+.cf:after, .post-content:after, .clearfix:after{ content:' '; display:table; clear:both; }
 .tar{ text-align:right; }
 .tal{ text-align:left; }
 .left{ float:left; }
 .right{ float:right; }
+

@@ -2,10 +2,18 @@
 layout: page
 title: Cows
 permalink: /cows.html
+cows: 
+  - image: /images/cows/DSC00286.jpg
+    name: "Bar L 248"
+    sire: "Mr. LDC 202 Quasimoto"
+    dam: "Miss LDC 302"
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+{% for cow in page.cows %}
+  <div class='cow'>
+    <img src='{{ cow.image }}'>
+    <h2>{{ cow.name }}</h2>
+    <p><strong>Sire: </strong>{{ cow.sire }}</p>
+    <p><strong>Dam: </strong>{{ cow.dam }}</p>
+  </div>
+{% endfor %}
