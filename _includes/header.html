@@ -2,7 +2,11 @@
 
   <div class="wrap">
 
-    <a class="logo" href="{{ site.baseurl }}/"><img src='/images/theme/logo.gif'></a>
+    {% if page.title == "Home" %}
+      <a class="logo" href="{{ site.baseurl }}/"><img src='/images/theme/logo-home.jpg'></a>
+    {% else %}
+      <a class="logo" href="{{ site.baseurl }}/"><img src='/images/theme/logo.gif'></a>
+    {% endif %}
 
     <div class='contact cf'>
       <div class='tal left'>
