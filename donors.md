@@ -2,10 +2,18 @@
 layout: page
 title: Donors
 permalink: /donors.html
+donors: 
+  - image: /images/cows/DSC00286.jpg
+    name: "Bar L 248"
+    sire: "Mr. LDC 202 Quasimoto"
+    dam: "Miss LDC 302"
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+{% for donor in page.donors %}
+  <div class='cow'>
+    <img src='{{ donor.image }}'>
+    <h2>{{ donor.name }}</h2>
+    <p><strong>Sire: </strong>{{ donor.sire }}</p>
+    <p><strong>Dam: </strong>{{ donor.dam }}</p>
+  </div>
+{% endfor %}
