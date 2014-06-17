@@ -45,6 +45,11 @@ body{
   font-size:.8em;
 }
 
+.contact a {
+  color:#fff;
+  text-decoration:none;
+}
+
 .site-nav{
   background-image: url(/images/theme/bg.gif);
   text-align:justify;
