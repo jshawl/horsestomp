@@ -7,7 +7,7 @@ layout: default
     <img src='/images/headers/{{page.title | downcase | replace:" ",''}}.gif'>
   </header>
 
-  <article class="post-content {{ page.title | downcase }}">
+  <article class="post-content {{ page.title | downcase | replace:" ",'-'}}">
   {{ content }}
   {% for img in page.images %}
     <img src='{{ img }}'>
