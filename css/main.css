@@ -113,3 +113,20 @@ body{
 .post-header{
   margin-bottom:1em;
 }
+
+.for-sale .cow{
+  width:100%;
+}
+
+.for-sale .cow h2{
+  padding-top:1em;
+  clear:both;
+}
+
+.for-sale .cow img{
+  width:50%;
+  float:left;
+  background:#ccc;
+  border:3px solid black;
+  padding:3px;
+}
