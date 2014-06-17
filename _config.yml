@@ -1,0 +1,14 @@
+# Site settings
+title: Horse Stomp Ranch
+email: horsestomp@aol.com
+description: "Horse Stomp Ranch"
+baseurl: ""
+url: "http://horsestomp.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+collections:
+  for-sale:
+    output: true

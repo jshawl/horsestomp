@@ -1,0 +1,137 @@
+*{
+  box-sizing:border-box;
+}
+html{
+  background-image: url(/images/theme/bg.gif);
+}
+
+img{
+  max-width:100%;
+}
+
+.home {
+  text-align:center;
+}
+
+.home img {
+  max-width:100%;
+  border:5px solid #ccc;
+  padding:5px;
+  margin-bottom:1em;
+}
+.f1s img{
+  float:left;
+  width:50%;
+  padding:.5em;
+}
+
+body{
+  background: #000;
+  width:900px;
+  box-sizing:border-box;
+  margin:2em auto;
+  border:10px solid #CCCCCC;
+  color:#eee;
+  font-family:'Helvetica Neue', Helvetica, sans-serif;
+  padding:0em 8em 4em 8em;
+}
+
+.logo img{
+  display:block;
+  margin:auto;
+}
+
+.contact{
+  font-size:.8em;
+}
+
+.contact a {
+  color:#fff;
+  text-decoration:none;
+}
+
+.site-nav{
+  background-image: url(/images/theme/bg.gif);
+  text-align:justify;
+  margin:2em 0;
+  padding:.5em 0;
+  box-shadow:3px 3px 0px #ccc;
+}
+
+
+
+.site-nav a{
+  color:#fff;
+  float:left;
+  width:16.66%;
+  text-align:center;
+  font-weight:bold;
+  text-shadow:1px 1px 0px #000;
+  text-decoration:none;
+}
+
+
+.cow h2, .cow p{
+  margin:.25em 0 .25em 50px;
+}
+
+.cow h2{
+  color:#ccc;
+  font-size:1em;
+}
+
+.cow p{
+  font-size:.8em;
+}
+
+
+
+/* Helpers */
+.cf:after, .post-content:after, .clearfix:after{ content:' '; display:table; clear:both; }
+.tar{ text-align:right; }
+.tal{ text-align:left; }
+.left{ float:left; }
+.right{ float:right; }
+
+
+.cow {
+  float:left;
+  width:50%;
+  margin:1em 0;
+}
+
+.cow img{
+  height:211px;
+  width:300px;
+  border:3px solid #ccc;
+}
+
+.on-the-farm img{
+  float:left;
+  width:50%;
+  padding:.25em;
+  height:207px;
+  background:#ccc;
+  border:3px solid #000;
+}
+
+.post-header{
+  margin-bottom:1em;
+}
+
+.for-sale .cow{
+  width:100%;
+}
+
+.for-sale .cow h2{
+  padding-top:1em;
+  clear:both;
+}
+
+.for-sale .cow img{
+  width:50%;
+  float:left;
+  background:#ccc;
+  border:3px solid black;
+  padding:3px;
+}
