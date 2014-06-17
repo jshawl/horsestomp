@@ -20,6 +20,7 @@ cows:
     images:
       - /images/for-sale/7357.jpg
       - /images/for-sale/7375.jpg
+      - /images/for-sale/ki-3.jpeg
   - name: Golden Certified F-1 Braford Heifers
     images:
       - /images/for-sale/golden-certified-f-1-bradford-heifers-1.jpeg
