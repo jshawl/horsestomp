@@ -15,6 +15,11 @@ cows:
       - /images/for-sale/7357.jpg
       - /images/for-sale/7375.jpg
       - /images/for-sale/ki-3.jpeg
+  - name: Horse Stomp 68 ~ Golden Certified F-1 Show Heifer Prospect
+    images:
+      - /images/for-sale/hs68-1.jpeg
+      - /images/for-sale/hs68-2.jpeg
+      - /images/for-sale/hs68-3.jpeg
 ---
 
 {% for cow in page.cows %}
