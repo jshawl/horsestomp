@@ -3,13 +3,11 @@ layout: page
 title: For Sale
 permalink: /forsale.html
 cows:
-  - name: King Imperator Mayro MN 127/1
-    extra: "DOB: 03-28-11 · ABBA# 897398"
-    images:
-      - /images/for-sale/7357.jpg
-      - /images/for-sale/7375.jpg
-      - /images/for-sale/ki-3.jpeg
 ---
+
+<br>
+Please call for purchasing inquiries on what we may have
+available in the future.
 
 {% for cow in page.cows %}
   <div class='cow'>
