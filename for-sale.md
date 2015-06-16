@@ -19,7 +19,7 @@ cows:
       - /images/for-sale/410.JPG
       - /images/for-sale/410-2.JPG
   - name: W4 Ranch 6058 Domino W440
-    extra: "DOB: March 2009<br> ABA# 43020677, **Calving Ease. Used on Brahman Heifers. Current BSE. Ready to work.**"
+    extra: "DOB: March 2009<br> AHA# 43020677, **Calving Ease. Used on Brahman Heifers. Current BSE. Ready to work.**"
     images:
       - /images/for-sale/w4.JPG
       - /images/for-sale/w4-2.JPG
