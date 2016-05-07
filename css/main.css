@@ -56,14 +56,17 @@ body{
   margin:2em 0;
   padding:.5em 0;
   box-shadow:3px 3px 0px #ccc;
+  display: table;
+  width:100%;
 }
 
 
 
 .site-nav a{
   color:#fff;
-  float:left;
   width:16.66%;
+  display:table-cell;
+  vertical-align:middle;
   text-align:center;
   font-weight:bold;
   text-shadow:1px 1px 0px #000;

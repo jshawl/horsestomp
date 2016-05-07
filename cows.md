@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cows
+title: Brahman Cattle
 permalink: /cows.html
 cows: 
   - image: /images/cows/DSC00286.jpg
