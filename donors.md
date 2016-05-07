@@ -2,7 +2,23 @@
 layout: page
 title: Donors
 permalink: /donors.html
-donors: 
+donors:
+  - image: "/images/donors/hs-110.jpg"
+    name: "Horse Stomp Miss Mayronne 110"
+    sire: "MN Mayro Imperator 135/2"
+    dam: "Horse Stomp Ms Impo Mayro 49"
+  - image: "/images/donors/hs-49.jpg"
+    name: "Horse Stomp Miss Impo Mayro 49"
+    sire: "LD Didor Mayro 4"
+    dam: "Ms BO Dixiecrata MN 608"
+  - image: "/images/donors/didor-2.jpg"
+    name: "Horse Stomp Miss Imper Mayro 102"
+    sire: "LD Didor Mayro 4"
+    dam: "Ms BO Mayro Manso 31"
+  - image: "/images/donors/didor.jpg"
+    name: "Horse Stomp Miss Impo Mayro 20"
+    sire: "LD Didor Mayro 4"
+    dam: "Ms BO Dixiecrata MN 608"
   - image: "/images/donors/DSC00220.jpg"
     name: "MS BO Mayro Manso 31 "
     sire: "MN Mayro Manso 433/2 "

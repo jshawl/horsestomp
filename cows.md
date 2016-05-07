@@ -2,7 +2,27 @@
 layout: page
 title: Brahman Cattle
 permalink: /cows.html
-cows: 
+cows:
+  - image: /images/cows/mayro-114.jpg
+    name: "Horse Stomp Lady Mayro Dioyo 114"
+    sire: "(=) JDH 204/2 YL Manso"
+    dam: "Ms BO DiMayro Manso 814"
+  - image: /images/cows/mayro-120.jpg
+    name: "Horse Stomp Miss Alexo Mayro MN 120"
+    sire: "Mr. JS 747/7"
+    dam: "Ms BO Dixiecrata MN 608"
+  - image: /images/cows/mayro-939.jpg
+    name: "Ms BO SuMayro Max 939"
+    sire: "+Mr. BP 594"
+    dam: "Miss Bayou Oaks 122"
+  - image: /images/cows/mayro-19.jpg
+    name: "Horse Stomp Miss Impo Mayro 19"
+    sire: "LD Didor Mayro 4"
+    dam: "Ms BO Dixiecrata MN 608"
+  - image: /images/cows/dioyo-112.jpg
+    name: "Horse Stomp Lady Mayro Dioyo 112"
+    sire: (=) JDH 204/2 YL Manso
+    dam: "Ms BO DiMayro Manso 814"
   - image: /images/cows/DSC00286.jpg
     name: "Bar L 248"
     sire: "Mr. LDC 202 Quasimoto"
