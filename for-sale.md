@@ -23,21 +23,6 @@ cows:
     images:
       - /images/for-sale/w4.JPG
       - /images/for-sale/w4-2.JPG
-  - name: Horse Stomp 63/5
-    extra: "DOB: 2015<br> Golden Certified F-1 Braford Bull<br>Color: Dark Brown Brindle<br>Sire: W4 Ranch 6058 Domino W440 Bull<br>Dam: Horse Stomp Miss Imper DiMayro 63 	~ ABBA# 869349"
-    images:
-      - /images/for-sale/hs635.JPG
-      - /images/for-sale/hs635-2.JPG
-  - name: Horse Stomp 19/5
-    extra: "DOB: 2015<br> Golden Certified F-1 Braford Bull<br>Color: Dark Brown Brindle<br>Sire: W4 Ranch 6058 Domino W440 Bull <br>Dam: Horse Stomp Miss Impo Mayro 19 ~ ABBA# 858028"
-    images:
-      - /images/for-sale/hs195.JPG
-      - /images/for-sale/hs195-2.JPG
-  - name: Horse Stomp 115/5
-    extra: "DOB: 2015<br> Golden Certified F-1 Braford Bull<br>Color: Dark Brown Brindle<br>Sire: W4 Ranch 5058 Domino W440 Bull<br> Dam: Horse Stomp Miss Bo Mayro 115 ~ ABBA# 891541 "
-    images:
-      - /images/for-sale/hs1155.JPG
-      - /images/for-sale/hs1155-2.JPG
 ---
 
 {% for cow in page.cows %}
